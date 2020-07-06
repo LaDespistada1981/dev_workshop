@@ -156,10 +156,13 @@ footer a{
 
 #modal{
     background: #5C9D08;
+    
     position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
-    width: 100%;
-    height: auto;
 
     display: flex;
     justify-content: center;
@@ -171,7 +174,8 @@ footer a{
 }
 
 #modal .content{
-    margin-top: 15%;
+    margin-top: 5%;
+    
     color: white;
     justify-content: center;
 }
